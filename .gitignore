@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Pipeline Data & Artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# PySpark & Hadoop Artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+winutils.exe
+*.parquet
+checkpoint/
+logs/
+*.log
